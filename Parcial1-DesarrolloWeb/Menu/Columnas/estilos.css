@@ -1,0 +1,41 @@
+
+.contenedor {
+    display: flex;
+}
+
+.columna {
+    background-color: gainsboro;
+    flex: 1;
+    margin: 5px;
+    padding: 5px;
+}
+
+.tarjeta {
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+}
+
+body{
+    background-color: pink;
+}
+
+.volver{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.volver h1{
+    color: #8b3a62;
+    margin-bottom: 15px;
+}
+
+.volver a{
+    display: inline-block;
+    background-color: white;
+    color: #8b3a62;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,35 @@
+
+* {
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    background-color: pink;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+.menu a {
+    color: blue;
+    margin: 2px;
+    padding: 2px;
+    text-decoration: none;
+    background-color: #ffe4ec;
+    border-radius: 8px;
+}
+
+.menu a:hover {
+    font-size: 18px;
+    background-color: pink;
+}
+
